@@ -9,6 +9,35 @@
             font-size: 3em;
         }
 
+        nav {
+            background-color: #333;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
         #answer {
             visibility: hidden;
             color: black;
@@ -64,6 +93,18 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Animating Answer</a></li>
+                <li><a href="css-practice.html">Css Practice</a></li>
+                <li><a href="playing-cards.html">Playing Cards</a></li>
+                <li><a href="oatmeal.html">Oat Meal Recipe</a></li>
+                <li><a href="song.html">Style Song</a></li>
+                <li><a href="tic-tac-toe.html">Tic-Tac-Toe</a></li>
+            </ul>
+        </nav>
+    </header>
     <span id="question">Question: &frac14; + &frac12; =</span>
     <span id="answer">&frac34;</span>
 </body>
